@@ -1,0 +1,15 @@
+  (function(){ function t_ready(e) { "loading" != document.readyState ? e() : document.addEventListener ? document.addEventListener("DOMContentLoaded", e) : document.attachEvent("onreadystatechange", (function() { "loading" != document.readyState && e() } )) } t_ready(function() { if (isFirefox) { document.querySelector("body").insertAdjacentHTML("beforeend", ` html { 		scrollbar-color: #ffba53 #111111; 		scrollbar-width: thin; 	} ` ); } else { document.querySelector("body").insertAdjacentHTML("beforeend", ` html::-webkit-scrollbar { 		width: 10px !important; 		-webkit-appearance: none !important; 	} 	html::-webkit-scrollbar-track { 		background: #111111 !important; 	} 	html::-webkit-scrollbar-thumb:hover { 		background: #bf955a !important; 	} 	html::-webkit-scrollbar-thumb { 		background: #ffba53 !important; 		border: px solid #333333 !important; 		-webkit-border-radius: 4px !important; 			 	} ` ); } }); })()  
+/*
+     FILE ARCHIVED ON 12:03:55 Mar 31, 2025 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 11:47:14 Sep 17, 2026.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  capture_cache.get: 0.529
+  load_resource: 16.038
+  PetaboxLoader3.datanode: 15.445
+*/
